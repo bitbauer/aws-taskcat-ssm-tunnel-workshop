@@ -1,0 +1,13 @@
+project:
+  name: aws-taskcat-ssm-tunnel-workshop
+  regions:
+  - us-east-1
+tests:
+  default:
+    template: ./src/cfn_stacks/ssm-tunnel-workshop.yaml
+    s3_bucket: cf-templates-8rmfeq4s5bur-us-east-1
+    parameters:
+      KeyPairName: ccwi
+      AvailabilityZones:
+      - eu-east-1a
+      - eu-east-1b
