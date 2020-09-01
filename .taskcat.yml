@@ -8,4 +8,4 @@ tests:
     s3_bucket: cf-templates-8rmfeq4s5bur-us-east-1
     parameters:
       KeyPairName: ccwi
-      AvailabilityZones: eu-east-1a, eu-east-1b
+      AvailabilityZones: us-east-1a, us-east-1b
