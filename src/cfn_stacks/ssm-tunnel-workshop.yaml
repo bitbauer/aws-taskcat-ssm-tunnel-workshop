@@ -127,6 +127,7 @@ Resources:
 
           sudo yum install -y
           https://s3.amazonaws.com/ec2-downloads-windows/SSMAgent/latest/linux_amd64/amazon-ssm-agent.rpm
+          sudo amazon-linux-extras install -y python3.8
   BastionSecurityGroup:
     Type: 'AWS::EC2::SecurityGroup'
     Properties:
@@ -163,6 +164,7 @@ Resources:
 
           sudo yum install -y
           https://s3.amazonaws.com/ec2-downloads-windows/SSMAgent/latest/linux_amd64/amazon-ssm-agent.rpm
+          sudo amazon-linux-extras install -y python3.8
   SsmSecurityGroup:
     Type: 'AWS::EC2::SecurityGroup'
     Properties:
